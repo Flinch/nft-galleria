@@ -1,6 +1,6 @@
 import React from "react";
 
-class RedditPost extends React.Component {
+class NFTPost extends React.Component {
 	state = { spans: 10, showModal: false };
 
 	constructor(props) {
@@ -51,7 +51,6 @@ class RedditPost extends React.Component {
 					this.onClick();
 				}}
 			>
-				{console.log(pool)}
 				<div className="image">
 					<img
 						ref={this.imageRef}
@@ -90,4 +89,4 @@ class RedditPost extends React.Component {
 	}
 }
 
-export default RedditPost;
+export default NFTPost;

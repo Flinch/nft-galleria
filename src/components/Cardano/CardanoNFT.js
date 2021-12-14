@@ -1,29 +1,36 @@
 import React from "react";
-import RedditListings from "./RedditListings";
-import RedditLogo from "./images/reddit.png";
-import KnittieLogo from "./images/knittie.png";
-import "./RedditListings.css";
-import Loader from "../Loader";
+import NFTListings from "./NFTListings";
+import "./NFTListings.css";
 
 class RedditPage extends React.Component {
 	state = { reddit_data: [], term: "", selectedPost: [], loader: true };
 	limit = 50;
 
-	setLoader = (loader) => {
-		if (loader) {
-			return <Loader message="Loading Reddit Home" />;
-		}
-
-		setTimeout(() => {
-			this.setState((loader: false));
-		}, 5000);
-	};
-
 	render() {
 		return (
 			<div className="ui container">
-				{this.setLoader()}
-				<RedditListings className="listings-container" />
+				<div
+					style={{
+						textAlign: "center",
+						fontFamily:
+							"Lato,Helvetica Neue,Arial,Helvetica,sans-serif",
+					}}
+				>
+					<h1 style={{ fontWeight: "200" }}>Le Cardano Galleria</h1>
+					<p style={{ fontSize: "16px" }}>
+						{" "}
+						A collection of some of my favorite projects on the
+						cardano blockchain. All pieces are owned, some are
+						invaluable. <br /> However feel free to shoot me a
+						message to inquire about the acquisition of any. <br />
+						<a href="https://flinch.github.io" target="_blank">
+							{" "}
+							<i className="linkify icon"> </i>{" "}
+						</a>
+					</p>
+					<hr />
+				</div>
+				<NFTListings className="listings-container" />
 			</div>
 		);
 	}

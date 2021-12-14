@@ -1,8 +1,8 @@
 import React from "react";
-import RedditPost from "./RedditPost";
-import "./RedditListings.css";
+import NFTPost from "./NFTPost";
+import "./NFTListings.css";
 
-const RedditListings = ({ selectedPost }) => {
+const NFTListings = ({ selectedPost }) => {
 	const nft_data = [
 		{
 			id: "1",
@@ -139,7 +139,7 @@ const RedditListings = ({ selectedPost }) => {
 			description: "Baby Dragons that live on the cardano blockchain",
 			pool_pm:
 				"https://pool.pm/f439a5cfe50a7cdee970e599395e77e9382ef140eff1aebd14c2698f.DRACANONyctenS2N6",
-			edition: "TBD",
+			edition: "(1/13)",
 			artwork: "Nycten",
 		},
 		{
@@ -526,7 +526,7 @@ const RedditListings = ({ selectedPost }) => {
 
 	const NFTList = nft_data.map((post) => {
 		return (
-			<RedditPost
+			<NFTPost
 				key={post.id}
 				name={post.name}
 				description={post.description}
@@ -542,4 +542,4 @@ const RedditListings = ({ selectedPost }) => {
 	return <div className="container reddit-list"> {NFTList} </div>;
 };
 
-export default RedditListings;
+export default NFTListings;
