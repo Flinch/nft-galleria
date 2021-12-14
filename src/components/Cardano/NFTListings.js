@@ -8,7 +8,7 @@ const NFTListings = ({ selectedPost }) => {
 			id: "1",
 			img:
 				"https://bafybeiciifhel52fk2wp4gjric4da4rkvfecmmiad5mrjqus4jwubdowse.ipfs.infura-ipfs.io/",
-			name: "Chassurico",
+			name: "Chiarascuro",
 			description: "Art by the lovely Love Machine artist",
 			pool_pm:
 				"https://pool.pm/d00b140f6286b991ab3a8a56d276a05883adf02f15f46506f20fa2b7.0111tyMillion",
@@ -53,7 +53,7 @@ const NFTListings = ({ selectedPost }) => {
 			id: "4",
 			img:
 				"https://bafybeigma2dfxfvhcevbmajyjwg3zpiov2m5jclkk6mccy7wfw35pppy2y.ipfs.infura-ipfs.io/",
-			name: "CardanoArts",
+			name: "CardArts",
 			description:
 				"Cardano Arts make premium art on the Cardano blockchain",
 			pool_pm:
@@ -236,7 +236,7 @@ const NFTListings = ({ selectedPost }) => {
 			id: "16",
 			img:
 				"https://bafybeibhfosq6cpnxpkl363n5ppkz23onfvqxdplx2s2lrnbmdrarnsx2y.ipfs.infura-ipfs.io/",
-			name: "ADA Aliens",
+			name: "Adaliens",
 			description:
 				"Captain Corgi is an out of this world NFT that has landed on the cardano blockchain",
 			pool_pm:
@@ -409,7 +409,7 @@ const NFTListings = ({ selectedPost }) => {
 			description: "",
 			pool_pm:
 				"https://pool.pm/1ff603f645d2aea6f032bb1dc490ca27fd221906c02790262fa65ae2.HAPPYMANFROMTHERIVER01",
-			edition: "(1/20)",
+			edition: "(1/10)",
 			artwork: "Happy man from the river",
 		},
 		{
@@ -431,7 +431,7 @@ const NFTListings = ({ selectedPost }) => {
 			description: "",
 			pool_pm:
 				"https://pool.pm/c0651746ffa8b643e28bdaaa24c2ca050a7f7823f3a98dcaf3c540bf.MONROEFUSION003",
-			edition: "(1/1)",
+			edition: "(1/5)",
 			artwork: "Monroe Colors",
 		},
 		{

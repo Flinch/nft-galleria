@@ -19,7 +19,7 @@ class RedditPage extends React.Component {
 					<h1 style={{ fontWeight: "200" }}>Le Cardano Galleria</h1>
 					<p style={{ fontSize: "16px" }}>
 						{" "}
-						A collection of some of my favorite projects on the
+						A collection of some of my favorite NFT projects on the
 						cardano blockchain. All pieces are owned, some are
 						invaluable. <br /> However feel free to shoot me a
 						message to inquire about the acquisition of any. <br />
