@@ -16,6 +16,17 @@ const RedditListings = ({ selectedPost }) => {
 			artwork: "11ty Million",
 		},
 		{
+			id: "42",
+			img:
+				"https://bafybeidgsmb5w64gpsvmkham4xxriaqamsavvakn3sxzuvjlak6s2hg3di.ipfs.infura-ipfs.io/",
+			name: "Mycelial Gallery",
+			description: "",
+			pool_pm:
+				"https://pool.pm/ceb5dedd6cda3f0b4a98919b5d3827e15e324771642b57e0e6aabd57.GoldBasho011",
+			edition: "(1/122)",
+			artwork: "Gold Basho 001",
+		},
+		{
 			id: "2",
 			img:
 				"https://bafybeig776ujmmhpobnfgkilr2b3yzp4fet43cbfwfglivgfira7exg2y4.ipfs.infura-ipfs.io/",
@@ -25,7 +36,7 @@ const RedditListings = ({ selectedPost }) => {
 			pool_pm:
 				"https://pool.pm/3f72283d65c97eb73d987777965e5f756d4c7c01e93e202042738229.AdaLovelaceUncommon000004",
 			edition: "(1/14)",
-			artwork: "Uncommon Icon",
+			artwork: "Ada Lovelace (Uncommon)",
 		},
 		{
 			id: "3",
@@ -230,7 +241,7 @@ const RedditListings = ({ selectedPost }) => {
 				"Captain Corgi is an out of this world NFT that has landed on the cardano blockchain",
 			pool_pm:
 				"https://pool.pm/26d7a17de3288bb3591a5fdab49ce874439ea1354f092a83e7fa5ba8.AdalienCC006",
-			edition: "TBD",
+			edition: "(1/10)",
 			artwork: "Captain Corgi",
 		},
 		{
@@ -303,6 +314,17 @@ const RedditListings = ({ selectedPost }) => {
 			artwork: "Skulls",
 		},
 		{
+			id: "40",
+			img:
+				"https://bafybeiaqggwgfzlza3bj5lybcxcutx2oik2g6utpr6vw4wldjqnfzrcswa.ipfs.infura-ipfs.io/",
+			name: "JRDY",
+			description: "",
+			pool_pm:
+				"https://pool.pm/e5101a1222b6113329ba06550923d033104039df077e927251900f81.ASTERIONDIAMOND14",
+			edition: "(1/1)",
+			artwork: "Playfull Unsig",
+		},
+		{
 			id: "23",
 			img:
 				"https://bafybeiamesvxlne5hq5lkwxdlfxnnjrg4rqg3fa5slmkf2rvirtu6fxbo4.ipfs.infura-ipfs.io/",
@@ -334,6 +356,28 @@ const RedditListings = ({ selectedPost }) => {
 				"https://pool.pm/c281975562f394761771f13f599881517fa8455946e7e30454de22da.GOATTribe09550",
 			edition: "(1/10,000)",
 			artwork: "Goat Tribe",
+		},
+		{
+			id: "34",
+			img:
+				"https://bafybeigwial3sjkin463bpojddm6oknfsc22tg4rla4tgxkrmq4egjwity.ipfs.infura-ipfs.io/",
+			name: "Chadi Nassar",
+			description: "",
+			pool_pm:
+				"https://pool.pm/a025d91dca7804ae13c5231c4c44a6cfa16aa98634e9e0e874380797.CMBYNSP176",
+			edition: "(1/88)",
+			artwork: "Call me by your name",
+		},
+		{
+			id: "35",
+			img:
+				"https://bafybeidqkh7uuc6m3nlshbkarhduxvlu2npooj2brnzydo3qamkzqj6nxe.ipfs.infura-ipfs.io/",
+			name: "CryptoKnitties",
+			description: "",
+			pool_pm:
+				"https://pool.pm/9bee44c5c494dee38622e6da0b3b312820f9f75dd6cc256c769db788.CryptoKnittie09005",
+			edition: "(1/10,000)",
+			artwork: "Crypto Knittie S1",
 		},
 		{
 			id: "26",
@@ -424,15 +468,59 @@ const RedditListings = ({ selectedPost }) => {
 			artwork: "Ninja Pink",
 		},
 		{
-			id: "34",
+			id: "36",
 			img:
-				"https://bafybeigwial3sjkin463bpojddm6oknfsc22tg4rla4tgxkrmq4egjwity.ipfs.infura-ipfs.io/",
-			name: "Chadi Nassar",
+				"https://bafybeifgwhlfm2ra2kdlefegoj4vzwrhwchljnaa7ncr33n6qedwnbsife.ipfs.infura-ipfs.io/",
+			name: "Fernando Tornelli",
 			description: "",
 			pool_pm:
-				"https://pool.pm/a025d91dca7804ae13c5231c4c44a6cfa16aa98634e9e0e874380797.CMBYNSP176",
-			edition: "(1/88)",
-			artwork: "Call me by your name",
+				"https://pool.pm/e5101a1222b6113329ba06550923d033104039df077e927251900f81.ASTERIONDIAMOND14",
+			edition: "(1/20)",
+			artwork: "Asterion Diamond",
+		},
+		{
+			id: "37",
+			img:
+				"https://bafybeibmcaarrwlkcdifcsajqb6bnvq7udw5bw5tz3vobaq3nmqbaytnya.ipfs.infura-ipfs.io/",
+			name: "Jonathan Dickson",
+			description: "",
+			pool_pm:
+				"https://pool.pm/38675a13f223490d845e9ca82f494770ec32662efee8413bbe634502.Timehastoldme003",
+			edition: "(1/20)",
+			artwork: "Time has told me",
+		},
+		{
+			id: "38",
+			img:
+				"https://bafybeicbo2lv36p2y3nr45hbdaoozir5dmcdskgw7iwz6tilfllznjubm4.ipfs.infura-ipfs.io/",
+			name: "Monogram",
+			description: "",
+			pool_pm:
+				"https://pool.pm/38675a13f223490d845e9ca82f494770ec32662efee8413bbe634502.Timehastoldme003",
+			edition: "(1/100)",
+			artwork: "Monogram enters the space",
+		},
+		{
+			id: "40",
+			img:
+				"https://bafybeib2lhtyuvkjpgn7dlpjfkssm5rp5jcwhx2bi375ebdjpqhcgwiera.ipfs.infura-ipfs.io/",
+			name: "Charles gitnick x glus",
+			description: "",
+			pool_pm:
+				"https://pool.pm/df142ed23ec3d8f636d1b62e6eedf96141abec51ab18363d0bf6316d.EndViolence111",
+			edition: "(1/150)",
+			artwork: "End Gun Violence",
+		},
+		{
+			id: "41",
+			img:
+				"https://bafybeidpey4pbkc6uovrbeyyr2guflefegrcdzuovjtn3ex6x5hzmjwqra.ipfs.infura-ipfs.io/",
+			name: "Just a JPEG",
+			description: "",
+			pool_pm:
+				"https://pool.pm/5b24387f4e6a48493e2254739272d70dac718e97ad1eec5502c82d6d.Series01JPEG6004",
+			edition: "(1/100)",
+			artwork: "Series 01",
 		},
 	];
 
